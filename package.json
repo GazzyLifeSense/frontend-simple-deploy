@@ -1,0 +1,14 @@
+{
+  "name": "frontend-simple-deploy",
+  "version": "1.0.0",
+  "description": "3 different method to deploy",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx serve -s ./dist",
+    "start": "node index.js",
+    "docker": "docker-compose -f nginx-app.docker-compose.yaml up --build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
