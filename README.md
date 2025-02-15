@@ -6,7 +6,7 @@
 
 - 2.运行以下其一命令：
   - npm run serve   使用serve命令部署
-  - npm run start   使用简易node htpp server进行部署
+  - npm run start   使用简易node http server进行部署
   - npm run docker  使用docker nginx镜像进行部署
 
 - 3.打开浏览器，输入localhost:3000
